@@ -10,9 +10,9 @@
 </head>
 
 <body>
+    <div class="header"></div>
     <div id="wrapper">
         <header>
-            <img id="logo" src="images/mmj3.png">
             <div class="nav">
                 <nav class="menu">
                     <a href="#">Contact Us</a>
@@ -24,29 +24,45 @@
                 </nav>
             </div>
         </header>
+        <img id="logo" src="images/mmj3.png">
     </div>
     <div class="container">
-    <!-- VIDEO START -->
-        <div class="fullscreen-bg">
-            <video loop autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
-                <source src="videos/plakata.webm" type="video/webm">
-                <source src="videos/plakata.mp4" type="video/mp4">
-                <source src="videos/plakata.ogv" type="video/ogg">
-            </video>
+        <!-- THIS IS BLANK -->
+    </div>
+    <!-- CONTACT US START -->
+    <div id="contact-us">
+        <form class="contact-us">
+        <h1>Send us a message!</h1>
+            <label for="Name">Name:</label>
+            <input name="Name" type="text" id="Name" placeholder="Full Name">
+            <br>
+            <label for="City">City:</label>
+            <input name="City" type="text" id="City" placeholder="City">
+            <br>
+            <label for="E-mail">E-mail:</label>
+            <input name="E-mail" type="text" id="E-mail" placeholder="E-mail">
+            <br>
+            <label for="Message">Message:</label>
+            <textarea name="Message" rows="10" cols="20" id="Message" placeholder="Message Here"></textarea>
+            <br>
+            <a href="mamajuanavolleyball@gmail.com">
+                <button class="button" style="vertical-align:middle"><span>Submit </span></button>
+            </a>
+        </form>
+        <div style="clear: both;"></div>
+    </div>
+    <!-- CONTACT US END -->
+    <div id="sponsors">
+        <div class="links">
+            <img class="sp1" src="images/usavb.png">
+            <img class="sp" src="images/geva.png">
         </div>
-        <!-- VIDEO END -->
     </div>
     <footer>
         <div class="copyrite">
             &copy Mamajuana Volleyball Club 2017
         </div>
-        <div class="links">
-            <img class="sp" src="images/geva.png">
-            <img class="sp" src="images/usavb.png">
-        </div>
     </footer>
-    </div>
-    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 
