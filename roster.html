@@ -11,26 +11,27 @@
         background: black;
     }
     </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <div class="header"></div>
-    <div class="topper"></div>
     <div id="wrapper">
-        <header>
-            <div class="nav">
-                <nav class="menu">
-                    <a href="#">SERVICES</a>
-                    <a href="#">GALLERY</a>
-                    <a href="#">SCHEDULES</a>
-                    <a href="#">ABOUT US</a>
-                    <a href="index.html">HOME</a>
-                </nav>
+        <div id="header">
+            <div class="logo"> <img id="logo" src="images/mmjmain.png">
+                <ul class="topnav" id="myTopnav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                    </li>
+                    <div style="clear: both;"></div>
+                </ul>
+                <div style="clear: both;"></div>
             </div>
-        </header>
-        <img id="logo" src="images/mmjmain.png">
-    </div>
+        </div>
     <div id="tittle">
         <h1 class="tittle">Mamajuana Team Roster 2016-17</h1>
     </div>
@@ -219,11 +220,6 @@
         <div style="clear: both;"></div>
     </section>
     <footer>
-    <div class="social_icons">
-            <a href="#"><img class="si1" src="images/google.png"></a>
-            <a href="#"><img class="si2" src="images/twitter.png"></a>
-            <a href="#"><img class="si3" src="images/facebook.png"></a>
-        </div>
         <div class="copyrite">
             &copy Mamajuana Volleyball Club 2017
         </div>
